@@ -13,7 +13,7 @@ echo ""                                                            >> ~/.bashrc
 echo "## nodejs"                                                   >> ~/.bashrc
 echo "if [[ ! -d ~/.npm-global ]] ; then mkdir ~/.npm-global ; fi" >> ~/.bashrc
 echo "export NPM_CONFIG_PREFIX=~/.npm-global"                      >> ~/.bashrc
-echo "export PATH=\"$PATH:/home/$USER/.npm-global/bin\""           >> ~/.bashrc
+echo "export PATH=\"\$PATH:/home/\$USER/.npm-global/bin\""         >> ~/.bashrc
 source ~/.bashrc
 ```
 
