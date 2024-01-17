@@ -2,6 +2,10 @@
 
 ## Node.js
 
+```console
+sudo tar --strip-components 1 -xvf node-v20.10.0-linux-x64.tar.xz --directory /usr/local/
+```
+
 ## Add node.js to bashrc
 
 ```console
